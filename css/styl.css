@@ -97,6 +97,12 @@ nav span {
     text-shadow: 1px 1px 1px rgba(154, 163, 163, 1);
 }
 
+@media screen and (max-width: 768px) {
+    nav span {
+       top:5px;
+    }
+}
+
 #main {
     display: none;
 }
