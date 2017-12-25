@@ -9,6 +9,7 @@
 
     <title>Perfect-Gym</title>
 
+   <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -30,7 +31,7 @@
 
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#about1">About</a>
+            <a href="about.html">About</a>
             <a href="#subjects1">Trainning</a>
 
             <a href="#contact">Contact</a>
@@ -57,7 +58,7 @@
 
     </header>
 
-
+<!--social section-->
     <section class="social">
         <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i><i class="fa fa-2x fa-instagram" aria-hidden="true"></i><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i>
     </section>
@@ -109,13 +110,19 @@
     <section id="cards">
         <div class="container">
             <div class="row">
-                <h2>TEAM</h2></div>
+                <h2>Team</h2></div>
             <div class="row">
+                <div class="col-md-12">
+                    <p><i class="fa fa-2x fa-female" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione repellendus culpa aperiam dolore quas nemo aspernatur, voluptate soluta temporibus, alias minima delectus voluptas itaque eaque quaerat officiis ut repellat, ea.</p>
+                </div>
+                
+            </div>
+                <div class="row"> <div class="col-md-12">
+                    <p><i class="fa fa-2x fa-heartbeat" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates neque sunt unde doloribus quo itaque soluta blanditiis ipsam quos dolorum, quis consequatur adipisci illo similique dicta magni, sint quidem quisquam!</p>
+                </div></div>
+               
 
-                <p><i class="fa fa-2x fa-female" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione repellendus culpa aperiam dolore quas nemo aspernatur, voluptate soluta temporibus, alias minima delectus voluptas itaque eaque quaerat officiis ut repellat, ea.</p>
-                <p><i class="fa fa-2x fa-heartbeat" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates neque sunt unde doloribus quo itaque soluta blanditiis ipsam quos dolorum, quis consequatur adipisci illo similique dicta magni, sint quidem quisquam!</p>
-
-
+            <div class="row " id="cards-row">
                 <div class="col-md-3 col-sm-6">
                     <div class="card" style="width: 20rem;">
                         <img class="card-img-top" src="img/men-gym.png" alt="Card image cap">
@@ -158,7 +165,21 @@
                 </div>
             </div>
         </div>
+
     </section>
+    
+    
+    <section class="motto">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>enroll in the gym</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
 
     <!--footer--------------------------------------------------------->
     <footer class="contact">
@@ -193,16 +214,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 ">
-                    <form action="">
-                        <input type="text" placeholder="imie">
-                        <input type="text" placeholder="nazwisko">
-                        <input type="text" placeholder="telefon">
-                        <input type="email" placeholder="email">
-
-                        <input type="submit" value="wyslij">
-                       <div> <input type="checkbox">fLorem ipsum dolor sit amet, consectetur adipisicing elit. </div> 
-                       
-                    </form>
+                   <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 
 
                 </div>

@@ -1,32 +1,45 @@
-body{
+body {
     box-sizing: border-box;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     background: black;
 }
 
-p{
-    font-family: 'Pangolin', cursive;;
+p {
+    font-family: 'Pangolin', cursive;
     font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(154, 163, 163, 1);
 }
-
 
 
 /* The side navigation menu */
-.sidenav {font-family: 'Indie Flower', cursive;
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+
+.sidenav {
+    font-family: 'Indie Flower', cursive;
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
 }
 
+
 /* The navigation menu links */
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -36,12 +49,16 @@ p{
     transition: 0.3s;
 }
 
+
 /* When you mouse over the navigation links, change their color */
+
 .sidenav a:hover {
     color: #f1f1f1;
 }
 
+
 /* Position and style the close button (top right corner) */
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -50,215 +67,265 @@ p{
     margin-left: 50px;
 }
 
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
 #main {
     transition: margin-left .5s;
     padding: 20px;
 }
 
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
-nav span{
+nav span {
     position: fixed;
-    font-size:26px;
-    left:5px;
-    top:20px;
+    z-index: 2;
+    font-size: 26px;
+    left: 5px;
+    top: 20px;
     font-family: 'Indie Flower', cursive;
-    
-}
-#main{
-    display:none;
+    text-shadow: 1px 1px 1px rgba(154, 163, 163, 1);
 }
 
-h1{
+#main {
+    display: none;
+}
+
+h1 {
     text-align: center;
+    text-shadow: 1px 1px 1px rgba(154, 163, 163, 1);
 }
 
-.btn{
-    border-radius:15px;
-background: transparent;
-    color:#fff;
+.btn {
+    border-radius: 15px;
+    background: transparent;
+    color: #fff;
 }
 
-
-.fa{
-    margin:10px;
-    color:#fff;
+.fa {
+    margin: 10px;
+    color: #fff;
 }
 
-header{position: relative;
+header {
     width: 100%;
-    background-image: url(../img/people-2604149_1280.jpg);
+    position: relative;
+    background-image: repeating-linear-gradient(-45deg, rgba(99, 98, 96, 0.3), rgba(54, 53, 52, 0.3) 5px, rgba(156, 153, 150, 0.3) 5px, rgba(99, 98, 96, 0.3) 5px), repeating-linear-gradient(45deg, rgba(99, 98, 96, 0.3), rgba(54, 53, 52, 0.3) 5px, rgba(156, 153, 150, 0.3) 5px, rgba(99, 98, 96, 0.3) 5px), url(../img/people-2604149_1280.jpg);
     height: 720px;
     background-size: cover;
     background-position: center;
 }
 
-header h2{font-size: 40px;
-    position:absolute;
-    top:40%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    font-family: 'Indie Flower', cursive;
+header h2 {
+    color: #E3DFDA;
+    text-shadow: 1px 2px 2px rgba(154, 163, 163, 1);
+    font-size: 6rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-header .btn{position:absolute;
-    top:55%;
-    left:50%;
-    transform: translate(-50%,-50%);
+header .btn {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: transparent;
-    color:#fff;
-    width: 250px;
-    border-radius:15px;
-    
-    
+    color: #fff;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
 }
+
 
 /*social section*/
-.social{
+
+.social {
     height: 100px;
     line-height: 100px;
     text-align: center;
-    color:#fff;
+    color: #fff;
 }
 
-
-
-.content .col-md-6{
-    display:flex;
+.content .col-md-6 {
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 0px;/**/
+    padding: 0px;
+    /**/
     height: 426px;
 }
 
-.content p{
+.content p {
+    box-sizing: border-box;
+    padding: 8px;
     font-size: 20px;
 }
 
-.content .col-md-6 img{
+.content .col-md-6 img {
     width: 100%;
 }
+
+
 /*phone section**********************************************/
-#phone{
+
+#phone {
     text-align: center;
 }
 
+
 /*cards****************************************************/
 
-#cards h2{
+#cards h2 {
     margin-right: auto;
-    margin-left:auto;
-}
-.card{width:300px;
-    background: #0E0B0D;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:10px;
+    margin-left: auto;
 }
 
-.card a{
+#cards .col-md-12 p{
+    padding: 5px;
+}
+
+.card {
+    width: 300px;
+    background: #0E0B0D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.card a {
     background: transparent;
 }
 
+
 /*footer style************************************************/
-footer{height: 70vh;
+
+footer {
+    height: 70vh;
     background-image: url(../img/photo-shoot-on-the-floor-1937659_1280.jpg);
     background-size: cover;
     background-position: bottom;
 }
-footer h3{text-align: center;
+
+footer h3 {
+    text-align: center;
     padding: 30px;
 }
 
-footer .col-md-6 input,textarea{display: block;
+footer .col-md-6 input,
+textarea {
+    display: block;
     width: 350px;
     height: 35px;
     margin: 5px;
-    background:transparent;
-    border-radius:5px;
-    border:1px solid #fff;
-
-    
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #fff;
 }
 
-footer .col-md-6 input,textarea::placeholder{
+footer .col-md-6 input,
+textarea::placeholder {
     padding: 3px;
 }
 
-textarea{
+textarea {
     height: 100px;
-    
 }
 
-input[type="submit"]{
+footer input[type="submit"] {
     padding: 0px;
-    margin-top:0px;
-    border:1px solid #fff;
+    margin-top: 0px;
+    border: 1px solid #fff;
+    background-color: rgba(250, 250, 245, 0.5);
+    transition: 0.3s;
 }
 
-footer .col-md-6{
+footer input[type="submit"]:hover {
+    background-color: rgba(250, 250, 245, 0.9);
+    transition: 0.3s;
+}
+
+footer .col-md-6 {
     display: flex;
     flex-direction: column;
     height: 285px;
     align-items: center;
     justify-content: center;
-   
-    
 }
 
+
 /*popUp*/
-#popUp{position: fixed;
-    top:0px;
-    display:none;
+
+#popUp {
+    position: fixed;
+    top: 0px;
+    display: none;
     width: 100%;
     height: 100%;
     background: black;
-    opacity:0.9;
+    opacity: 0.9;
 }
 
-#popUp .col-md-12{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items:center;
+#popUp .col-md-12 {
+  
     height: 100vh;
 }
 
 #popUp form {
-    display: flex;
-    flex-direction: column;
-    
+   
 }
 
-#popUp form input,textarea{
+#popUp form input,
+textarea {
     width: 350px;
     height: 35px;
     margin: 5px;
-    background:transparent;
-    border-radius:5px;
-    border:1px solid #fff;
-
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #fff;
 }
 
-#popUp form input,textarea::placeholder{
+#popUp form input[type="submit"] {
+    background-color: rgba(250, 250, 245, 0.5);
+    color: black;
+    transition: 0.3s;
+}
+
+#popUp form input[type="submit"]:hover {
+    background-color: rgba(250, 250, 245, 0.9);
+    transition: 0.3s;
+}
+
+#popUp form input,
+textarea::placeholder {
     padding: 3px;
 }
 
-#btnPopUp{
+#btnPopUp {
     position: absolute;
     top: 0px;
     right: 0px;
     background: transparent;
-    color:#fff;
-    border:0px;
+    color: #fff;
+    border: 0px;
 }
+
+
 /*media queries*/
+
 @media screen and (max-width: 768px) {
     .reverse {
         display: flex;
@@ -266,5 +333,59 @@ footer .col-md-6{
     }
 }
 
+.checkbox input{
+    text-align: left;
+}
 
 
+/*about.html style*********************************************************************************/
+
+.aboutUs {
+    background: black;
+    color:     color: #333;
+}
+
+.aboutUs p {
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(154, 163, 163, 1);
+}
+
+.aboutUs figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    opacity: 0.5;
+}
+
+.mask:hover {
+    background: yellow;
+}
+
+.mask2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    z-index: 11;
+    border: 1px solid #fff;
+    opacity: 0;
+}
+
+.mask2:hover {
+    opacity: 0.6;
+}
+
+.aboutUs .col figure img {
+    width: 100%;
+}
