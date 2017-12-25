@@ -177,7 +177,7 @@ header .btn {
 
 .content p {
     box-sizing: border-box;
-    padding: 8px;
+    padding: 15px;
     font-size: 20px;
 }
 
@@ -195,7 +195,7 @@ header .btn {
 
 /*cards****************************************************/
 
-#cards h2 {
+#cards h2 {font-family: 'Lemonada', cursive;
     margin-right: auto;
     margin-left: auto;
 }
@@ -371,6 +371,18 @@ textarea::placeholder {
 
 /*about.html style*********************************************************************************/
 
+/*header-logo*/
+.about-header{
+    background-color: #16191e;
+}
+
+.about-header .col-md-6 img{
+    width: 100%;
+}
+
+
+
+/*aboutUs style*/
 .aboutUs {
     background: black;
     color:     color: #333;
