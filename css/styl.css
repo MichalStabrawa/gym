@@ -428,6 +428,14 @@ textarea::placeholder {
     background: black;
     color:     color: #333;
 }
+.aboutUs h2,h3{
+     font-family: 'Pangolin', cursive;
+}
+
+footer  h3{
+
+    margin-top: 0px;
+}
 
 .aboutUs p {
     font-family: 'Pangolin', cursive;
@@ -480,6 +488,13 @@ textarea::placeholder {
 
 .aboutUs .col figure img {
     width: 100%;
+}
+
+.testimontials{
+    background-color:#fff;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*about-training*/
